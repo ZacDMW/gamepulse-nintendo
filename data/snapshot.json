@@ -1,0 +1,111 @@
+{
+  "as_of": "2026-06-30",
+  "unit": "millions of units",
+  "hardware_source": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html",
+  "software_source": "https://www.nintendo.co.jp/ir/en/finance/software/index.html",
+  "switch_source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+  "consoles": [
+    {
+      "name": "Nintendo Switch 2",
+      "hardware_m": 23.68,
+      "software_m": 58.17
+    },
+    {
+      "name": "Nintendo Switch",
+      "hardware_m": 156.59,
+      "software_m": 1561.95
+    },
+    {
+      "name": "Wii U",
+      "hardware_m": 13.56,
+      "software_m": 103.6
+    },
+    {
+      "name": "Nintendo 3DS",
+      "hardware_m": 75.94,
+      "software_m": 392.31
+    },
+    {
+      "name": "Wii",
+      "hardware_m": 101.63,
+      "software_m": 921.85
+    },
+    {
+      "name": "Nintendo DS",
+      "hardware_m": 154.02,
+      "software_m": 948.76
+    }
+  ],
+  "titles": [
+    {
+      "title": "Mario Kart World",
+      "platform": "Nintendo Switch 2",
+      "genre": "Racing",
+      "units_m": 15.39,
+      "note": "Includes eligible bundled and downloadable copies"
+    },
+    {
+      "title": "Donkey Kong Bananza",
+      "platform": "Nintendo Switch 2",
+      "genre": "Platformer",
+      "units_m": 4.78,
+      "note": "Worldwide consolidated units"
+    },
+    {
+      "title": "Pokémon Legends: Z-A – Nintendo Switch 2 Edition",
+      "platform": "Nintendo Switch 2",
+      "genre": "RPG",
+      "units_m": 3.99,
+      "note": "Edition-specific figure; combined Switch/Switch 2 total is different"
+    },
+    {
+      "title": "Pokémon Pokopia",
+      "platform": "Nintendo Switch 2",
+      "genre": "Simulation",
+      "units_m": 3.68,
+      "note": "Only territories outside Japan where Nintendo is publisher"
+    },
+    {
+      "title": "Kirby Air Riders",
+      "platform": "Nintendo Switch 2",
+      "genre": "Racing",
+      "units_m": 1.9,
+      "note": "Worldwide consolidated units"
+    },
+    {
+      "title": "Super Mario Party Jamboree – Nintendo Switch 2 Edition",
+      "platform": "Nintendo Switch 2",
+      "genre": "Party",
+      "units_m": 1.15,
+      "note": "Edition-specific figure"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe",
+      "platform": "Nintendo Switch",
+      "genre": "Racing",
+      "units_m": 71.53,
+      "note": "Worldwide consolidated units"
+    },
+    {
+      "title": "Animal Crossing: New Horizons",
+      "platform": "Nintendo Switch",
+      "genre": "Simulation",
+      "units_m": 50.29,
+      "note": "Worldwide consolidated units"
+    },
+    {
+      "title": "Super Smash Bros. Ultimate",
+      "platform": "Nintendo Switch",
+      "genre": "Fighting",
+      "units_m": 38.14,
+      "note": "Worldwide consolidated units"
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "platform": "Nintendo Switch",
+      "genre": "Action-adventure",
+      "units_m": 34.06,
+      "note": "Worldwide consolidated units"
+    }
+  ]
+}
