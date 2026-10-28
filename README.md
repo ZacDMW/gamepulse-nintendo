@@ -2,9 +2,12 @@
 
 A Nintendo-first, source-transparent business intelligence portfolio project. **Independent educational project; not affiliated with or endorsed by Nintendo.**
 
-## Features (v0.1)
+## Features (v0.2 — playful interface)
 
-- Interactive Streamlit dashboard with console-generation comparisons, publicly reported leading game titles, and carefully labeled genre breakdowns.
+- Nintendo-inspired visual design with friendly headings, warm off-white surfaces, bright red, sunshine yellow, sky blue, and mint accents. No official brand assets or character art are used.
+- Three navigable dashboard areas: **Console quest**, **Games & genres**, and **Data guide**.
+- Interactive Plotly comparisons, colorful ranked-game charts, an explicitly sample-only genre donut, selectable reporting checkpoints, and CSV export.
+- Responsive layouts with high-contrast labels and reduced-motion support.
 - SQLite database with historical snapshot storage and duplicate-safe ingestion.
 - Official Nintendo investor-relations figures for **June 30, 2026** (worldwide, life-to-date unit sales).
 - A scheduled checker that compares published reporting dates weekly. **New sales figures are never auto-published without validation.**
