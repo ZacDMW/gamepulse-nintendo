@@ -111,7 +111,7 @@ if not dates:
     st.error("No verified sales snapshot is available yet.")
     st.stop()
 
-choose, badge = st.columns([2, 3], vertical_alignment="bottom")
+choose, badge = st.columns([2, 3])
 with choose:
     selected_date = st.selectbox(
         "🗓️ Pick a reporting checkpoint",
@@ -237,7 +237,7 @@ with games:
         .sum()
         .sort_values("units_m", ascending=False)
     )
-    donut, summary = st.columns([3, 2], vertical_alignment="center")
+    donut, summary = st.columns([3, 2])
     with donut:
         genre_fig = px.pie(
             genre_data,
