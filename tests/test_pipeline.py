@@ -18,3 +18,14 @@ def test_snapshot_idempotent():
         insert_snapshot(connection, record)
         assert connection.execute('SELECT count(*) FROM consoles').fetchone()[0] == len(record['consoles'])
         assert connection.execute('SELECT count(*) FROM titles').fetchone()[0] == len(record['titles'])
+
+
+def test_dashboard_source_and_theme():
+    """Catch syntax errors and missing visual assets without booting Streamlit."""
+    import ast
+
+    root = Path(__file__).parents[1]
+    app_source = (root / 'app.py').read_text(encoding='utf-8')
+    ast.parse(app_source)
+    assert (root / 'assets' / 'theme.css').is_file()
+    assert (root / '.streamlit' / 'config.toml').is_file()
